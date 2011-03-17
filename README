@@ -1,0 +1,3 @@
+This is a port of git-new-workdir to run on Windows with msysgit.
+The original can be found there:
+http://git.kernel.org/?p=git/git.git;a=blob_plain;f=contrib/workdir/git-new-workdir;hb=HEAD
