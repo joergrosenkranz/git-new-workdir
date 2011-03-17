@@ -22,11 +22,11 @@ IF ERRORLEVEL 1 GOTO error_no_source
 %GITCMD% rev-parse --git-dir 2>&1 >NUL
 IF ERRORLEVEL 1 GOTO error_no_repository
 
-REM Get .git directory as short name to prevent spaces
+REM Get full path to .git directory
 FOR /F %%d IN ('%GITCMD% rev-parse --git-dir') DO SET GITDIR=%%~fd
 POPD
 
-REM Get a short name
+REM Get a short name to prevent spaces
 FOR %%f in ("%GITDIR%") DO SET GITSHORTDIR=%%~fsf
 
 REM Don't link to a configured bare repository
