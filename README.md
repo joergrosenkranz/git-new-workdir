@@ -14,7 +14,7 @@ Links are not really well supported by many applications on Windows. That may le
 to unexpected behavior.
 
 **Do not use rm -rf to remove a working dir including a .git folder. rm does
-not pay attention to links an traverse into the orginal .git directory. You will 
+not pay attention to links and traverses into the orginal .git directory. You will 
 loose your entire history that way.**
 
 Use Explorer to delete working dirs or at least the .git directory inside.
