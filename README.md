@@ -1,5 +1,9 @@
 # git-new-workdir
 
+**There is now a much better way to handle separate work dirs using
+[git worktree](https://git-scm.com/docs/git-worktree). That's why this
+repository won't receive any changes anymore and is archived.**
+
 This is a port of git-new-workdir to run on Windows with msysgit.
 
 The original can be found there:
